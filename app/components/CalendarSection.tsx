@@ -43,7 +43,7 @@ export const CalendarSection: React.FC = () => {
           Race <span className="text-primary">Calendar</span>
         </h2>
 
-        <div className="flex gap-2 overflow-x-auto pb-4 no-scrollbar">
+        {/*  <div className="flex gap-2 overflow-x-auto pb-4 no-scrollbar">
           {filters.map((f) => (
             <button
               key={f}
@@ -58,6 +58,7 @@ export const CalendarSection: React.FC = () => {
             </button>
           ))}
         </div>
+      </div> */}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
