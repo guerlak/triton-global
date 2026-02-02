@@ -1,6 +1,14 @@
 import React from "react";
-import { NewsItem } from "../../types";
+
 import { Calendar } from "lucide-react";
+
+type NewsItem = {
+  id: string;
+  category: string;
+  title: string;
+  date: string;
+  imageUrl: string;
+};
 
 const NEWS: NewsItem[] = [
   {

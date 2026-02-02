@@ -1,6 +1,14 @@
 import React from "react";
 import { Waves, Heart, Star } from "lucide-react";
-import { Athlete } from "../../types";
+
+type Athlete = {
+  id: string;
+  name: string;
+  country: string;
+  position: number;
+  points: number;
+  avatarUrl: string;
+};
 
 const LEADERBOARD: Athlete[] = [
   {

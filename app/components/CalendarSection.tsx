@@ -1,6 +1,15 @@
 import React, { useState } from "react";
-import { Race } from "../../types";
+
 import { MapPin } from "lucide-react";
+
+type Race = {
+  id: string;
+  name: string;
+  location: string;
+  date: string;
+  status: "Registration Open" | "Sold Out";
+  imageUrl: string;
+};
 
 const RACES: Race[] = [
   {
